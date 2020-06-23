@@ -1,0 +1,39 @@
+/*-------------------------------------- LINHAS GLOBAIS ------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+@font-face{
+    font-family: "Tangerine Bold";
+    src: url("../fontes/Tangerine/Tangerine-Bold.ttf");
+}
+@font-face{
+    font-family: "Major Mono Display";
+    src: url("../fontes/Major_Mono_Display/MajorMonoDisplay-Regular.ttf");
+}
+@font-face{
+    font-family: "PlayfairDisplaySC";
+    src: url("../fontes/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf");
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 1%;
+}
+
+::-webkit-scrollbar-track {
+    background: #101010;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f5d824;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ffe641;
+}

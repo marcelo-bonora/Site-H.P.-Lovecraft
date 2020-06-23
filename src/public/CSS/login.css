@@ -1,0 +1,231 @@
+/* --------------------------------- PRIMEIRA PARTE - PAGINA DE LOGIN ------------------------------*/
+.pagina_login .container{
+    width: 80%;
+}
+
+.body_login{
+    background-image: url("../img/wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+   padding-top: 0px;  
+}
+
+.back_home {
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    margin: 0px 0px 0px 10px;
+    padding: 10px 20px 10px 20px;
+    font-family: "Major Mono Display";
+    font-weight: bold;
+    color: #f9f9f9;
+    border: #f9f9f9 1px solid;
+}
+
+.back_home:hover{
+    color: #f5d824;
+}
+
+.box_login{
+    padding: 0px 0px 0px 0px;
+    margin: 55px 0px 80px 10%;
+    height: 450px;
+    width: 80%;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#img_box_login{
+    float: left;
+    background-size: cover;
+    height: 450px;
+    width: 40%;
+    padding: 0px 0px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
+    border-right: 10px solid transparent;
+    border-image: linear-gradient(to top,#333004 0,#f5d824 51%,#131502 100%);
+    border-image-slice: 1;
+
+}
+
+.box2_login{
+    float: right;
+    width: 58%;
+    height: 100%;
+    margin: 0% 0%;
+    padding: 0% 0% 0 0%;
+
+}
+
+#h2_login{
+    width: 50%;
+    height: auto;
+    margin: 10% 25% 0% 25%;
+    float: right;
+    color: #000000;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right,#021013 0,#268323 51%,#021013 100%);
+    border-image-slice: 1;
+    text-align: center;
+    font-family: "Major Mono Display";
+    font-size: 20px;
+}
+
+#erro{
+    width: 50%;
+    padding-left: 25%;
+    font-family: "PlayfairDisplaySC";
+    color: #cfcfcf;
+    text-align: center;
+    
+}
+
+
+#input_login{
+    width: 50%;
+    height: auto;
+    margin: 0% 25% 0% 50%;
+    float: right;
+}
+
+.icone_input{
+    float: left;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: 40px;
+    left: 10px;
+}
+
+#input{
+    float: right;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight:700;
+    background: #ededed;
+    color: #000000;
+    border: 1px solid #000000d3;
+    line-height:24px;
+    outline: none;
+    /* border: 2px transparent; */
+    padding: 4% 10% 4% 20%;
+    margin: 0% 0% 5% 0%;
+    display: block;
+    background-position: center center; 
+    text-align: start;
+    font-family: 'FF Mark W05', sans-serif;
+}
+
+#input_senha{
+    float: right;
+    width: 60%;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight:700;
+    background: #ededed;
+    color: #000000;
+    border: 1px solid #000000d3;
+    line-height:24px;
+    outline: none;
+    /* border: 2px transparent; */
+    padding: 4% 20% 4% 20%;
+    margin: 0% 0% 5% 0%;
+    display: block;
+    background-position: center center; 
+    text-align: start;
+    font-family: 'FF Mark W05', sans-serif;
+}
+
+
+#div_botão{
+    float: right;
+    /* border: 1px solid #0703ff; */
+    width: 50%;
+    height: auto;
+    margin: 0% 25%;
+    padding: 0% 0% 0% 0%;   
+}
+
+#botão_login{
+    background-image: url("../img/trava_fechado.png");;
+    background-color:#ededed;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 120%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    padding: 0 0 0 0;
+    display: block;
+    color: transparent;
+    border-radius: 27%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    border: transparent;
+    border: 2px solid #f5d824;
+    cursor: pointer;
+}
+
+#div_botão button:hover{
+    background-image: url("../img/trava_aberto.png");
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 120%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    padding: 0 0 0 0;
+    display: block;
+    color: transparent;
+    border-radius: 27%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    border: transparent;
+    border: 2px solid #f5d824;
+    /* background-color: transparent; */
+}
+
+
+#menu2 a{
+    font-size: 9px;
+    color: #cfcfcf;
+    text-decoration: none; 
+}
+
+#menu2{
+    position: relative;
+    clear: both;
+    height: auto;
+    width: 50%;
+    text-align: center;
+    padding-right: 3.5%;
+    margin: 0% 25% 0% 25%;
+}
+
+#menu2 a:hover{
+    background-image: url("../img/trava_aberto.png");
+    color: #268323;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right,#333004 0,#f5d824 51%,#131502 100%);
+    border-image-slice: 1;
+
+}
+
+#footer_login{
+    clear: both;
+    background-color: transparent;
+    height: 0px;
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+    height: 100%;
+}

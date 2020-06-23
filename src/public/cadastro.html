@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- TODOS CSS DA PAGINA -->
+    <!-- <link rel="stylesheet" href="CSS/style.css"> -->
+    <link rel="stylesheet" href="CSS/GLOBAIS.css">
+    <link rel="stylesheet" href="CSS/cadastro.css">
+    <link rel="shortcut icon" href="img/icone_cthulhu3.png">
+    <title>Bestiary Lovecraftian - Cadastro</title>
+</head>
+<!---------------------------- PRIMEIRA PARTE - PAGINA DE CADASTRO  ---------------------------------->
+
+<body class="body_cadastro">
+    <div class="black">
+        <div class="pag_cadastro">
+            <a class="back_login" href="login.html">Login</a>
+            <h1> CRIE UM NOME DE USUÁRIO E SENHA</h1>
+            <div class="box_cadastro">
+                <div class="input_cadastro">
+                    <div class="label-float">
+                        <input id="nomeUsuario"  type="text" placeholder=" "/>
+                        <label>NOME DE USUÁRIO</label>
+                        <div class="div_validacao" id="div_nomeUsuario"></div>
+                    </div>
+                    <div class="label-float">
+                        <input id="email" type="email" placeholder=" "/>
+                        <label>EMAIL</label>
+                        <div class="div_validacao" id="div_email"></div>
+                    </div>
+                    <div class="label-float">
+                        <input id="senha" type="password" placeholder=" "/>
+                        <label>SENHA</label>
+                        <div class="div_validacao" id="div_senha"></div>                        
+                    </div>
+                    <div class="label-float">
+                        <input id="confirmeSenha" type="password" placeholder=" "/>
+                        <label>CONFIRMAR SENHA</label>
+                        <div class="div_validacao" id="div_confirmeSenha"></div>
+                    </div>
+                    <div>
+                        <button class="button_cadastro" onclick="cadastrar()">AVANÇAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!---------------------------- SEGUNDA PARTE - PAGINA DE CADASTRO  ---------------------------------->
+
+<script src="js/cadastro.js"></script>

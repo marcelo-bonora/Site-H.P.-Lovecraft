@@ -1,0 +1,312 @@
+/*---------------------------------- SEGUNDA PARTE - UNIVERSO ------------------------------------*/
+#universo_background{
+    width: 100%;
+    height: 543px;
+    background-image: url("../img/descubra.jpg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    border-bottom: 7px solid transparent;
+    border-image: linear-gradient(to right,#333004 0,#f5d824 51%,#131502 100%);
+    border-image-slice: 1; 
+    background-color: #000000;
+    padding: 0px 0px 0px 0px;
+    margin: 0 0 0 0;
+    /* border-bottom: 1px solid #333333; */
+
+}
+
+.box_h1{
+    width: 45%;
+    height: 80%;
+    border: 1px solid #fff;
+    float: right;
+    margin: 5% 5% 0% 0;
+}
+
+.box_h1 h1{
+    color: #fff;
+    font-family: "Major Mono Display";
+    text-align: center;
+    padding: 80px 10px;
+}
+
+.box_h1 #autor{
+    color: #fff;
+    float: right;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 30px 0px 0px;
+    font-size: 40px;
+    font-family: "Tangerine Bold";
+}
+
+/*---------------------------------- TERCEIRA PARTE - UNIVERSO ------------------------------------*/
+.box_universo {
+    width: 100%;
+    height: 1000px;
+    background: #000;
+    box-sizing: inherit;
+}
+
+.container_universo{
+    width: 96%;
+    padding: 0 0 0 2%;
+}
+
+.box_universo h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: solid 1px #f5d824;
+    margin-bottom: 50px;
+    font-family: "PlayfairDisplaySC";
+    font-size: 30px;
+}
+
+.box_universo img{
+    width: 50px;
+    height: 50px;
+    padding: 50px 48% 0 48%;
+}
+
+.box{
+    float: left;
+    background-color: #101217;
+    border: 1px solid #32281f;
+    box-shadow: 0 0 16px 14px rgba(0,0,0,.4);
+    color: #fff;
+    cursor: pointer;
+    height: 338px;
+    width: 306px;
+    margin: 8px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    box-sizing: inherit;
+
+}
+.box h3{
+    text-align: center;
+    padding: 50% 0;
+    font-size: 25px;
+    font-family: "PlayfairDisplaySC";
+}
+
+.box p{
+    text-align: center;
+    padding-bottom: 0%;
+    font-size: 20px;
+    position: relative;
+    bottom: 45%;
+    color: #f5d824;
+    border-top: solid 1px #f5d824;
+    font-family: "PlayfairDisplaySC";
+}
+
+.box h3:hover{
+    background-color: rgba(0, 0, 0, 0.678);
+    transition: 1.3s;
+}
+
+
+.big_box{
+    float: right;
+    background-color: #101217;
+    border: 1px solid #32281f;
+    box-shadow: 0 0 16px 14px rgba(0,0,0,.4);
+    color: #fff;
+    cursor: pointer;
+    height: 639px;
+    width: 630px;
+    margin: 8px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    box-sizing: inherit;
+}
+
+.big_box h3{
+    text-align: center;
+    padding: 50% 0;
+    font-size: 50px;
+    font-family: "PlayfairDisplaySC";
+}
+
+.big_box p{
+    text-align: center;
+    padding-bottom: 0%;
+    font-size: 30px;
+    position: relative;
+    bottom: 49%;
+    color: #f5d824;
+    border-top: solid 1px #f5d824;
+    font-family: "PlayfairDisplaySC";
+}
+
+.big_box h3:hover{
+    background-color: rgba(0, 0, 0, 0.678);
+    transition: 1.3s;
+}
+
+#Necronomicon{
+    background-image: url("../img/necronomicon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#Hierarquia{
+    background-image: url("../img/hierarquia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#Cthulhu_b{
+    background-image: url("../img/sobre3.jfif");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#Azathoth{
+    background-image: url("../img/Azathoth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#Hastur{
+    background-image: url("../img/Hastur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#Nyarlathotep{
+    background-image: url("../img/Nyarlathotep.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#Cthulhu{
+    background-image: url("../img/sobre3.jfif");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#Hastur_b{
+    background-image: url("../img/Hastur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#Yog-Sothoth{
+    background-image: url("../img/Yog-Sothoth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#Shub-Niggurath{
+    background-image: url("../img/Shub-Niggurath.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/*---------------------------------- QUARTA PARTE - UNIVERSO ------------------------------------*/
+.header_universo {
+    background-color: #111111;
+    border-bottom: 2px solid #333333;
+    height: 60px;
+    width: 80%;
+    padding: 10px 10%;
+    margin: 0px 0px 50px 0px;
+    font-size: 14px;
+}
+
+.header_universo h1{
+    color: #fff;
+    padding: 10px 60px;
+    float: left;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #333333;
+}
+
+.header_universo input{
+    padding: 9.25px 0px 9.25px 20px;
+    margin: 10px 0px 0px 40px;
+    width: 35%;
+    float: left;
+    border:  1px solid #333;
+    border-right: transparent;
+    background-color: #101010;
+    color: #fff;
+    font-weight: 700;  
+}
+
+.header_universo .busca{
+    background-image: url("../img/ritual.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60%;
+    width: 55px;
+    height: 37px;
+    background-color: transparent;
+    border:  1px solid #333;
+    border-left: transparent;
+    float: left;
+    margin-top: 10px;
+}
+
+.header_universo a{
+    float: right;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header_universo a:hover{
+    color: #f5d824;
+}
+
+/*---------------------------------- QUINTA PARTE - UNIVERSO ------------------------------------*/
+.container_bestiario{
+    width: 90%;
+    padding: 0 5%;
+}
+
+.box_bestiario{
+    float: left;
+    background-color: #101217;
+    border: 1px solid #32281f;
+    box-shadow: 0 0 16px 14px rgba(0,0,0,.4);
+    color: #fff;
+    /* cursor: pointer;
+    display: inline; */
+    height: 366px;
+    width: 284.500px;
+    margin: 8px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    box-sizing: inherit;
+}
+
+.box_bestiario h3{
+    text-align: center;
+    padding: 60% 0;
+    font-size: 25px;
+    font-family: "PlayfairDisplaySC";
+}
+
+.box_bestiario p{
+    text-align: center;
+    padding-bottom: 0%;
+    font-size: 20px;
+    position: relative;
+    bottom: 40%;
+    color: #f5d824;
+    border-top: solid 1px #f5d824;
+    font-family: "PlayfairDisplaySC";
+}
+
+.box_bestiario h3:hover{
+    background-color: rgba(0, 0, 0, 0.678);
+    transition: 1.3s;
+}

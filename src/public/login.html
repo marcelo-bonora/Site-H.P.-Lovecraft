@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- TODOS CSS DA PAGINA -->
+    <!-- <link rel="stylesheet" href="CSS/style.css"> -->
+    <link rel="stylesheet" href="CSS/GLOBAIS.css">
+    <link rel="stylesheet" href="CSS/login.css">
+    <!-- ICONE DA ABA DO SITE -->
+    <link rel="shortcut icon" href="img/icone_cthulhu3.png">
+    <title>Bestiary Lovecraftian - Login</title>
+</head>       
+<!------------------------------- PRIMEIRA PARTE - PAGINA DE LOGIN  ---------------------------------->
+
+<body class="body_login">
+        <div class="pagina_login">
+            <a class="back_home" href="index.html">Home</a>
+            <div class="container">
+                <div class="box_login">
+                    <div><img id="img_box_login" src="img/login5.jpg"></div>
+                        <div class="box2_login">
+                            <div id="h2_login"><h2>    Iniciar sessão  </h2></div>
+                            <div><p id="erro" style="display: none">
+                                Seu nome de usuário ou senha podem estar incorretos
+                            </p></div>
+                            <div id="input_login" >
+                                <img src="img/icone_cthulhu3.png"  class="icone_input">
+                                <input id="input" placeholder="EMAIL" autofocus>
+                                <img src="img/chave1.png"  class="icone_input">
+                                <input type="password" autocomplete="off" id="input_senha" placeholder="SENHA">
+                            </div>
+                            <div id="div_botão"> 
+                                <div> <button id="botão_login" onclick="logar()"></button> </div>
+                            </div>
+                            <div id="menu2">
+                                <a  href="#">ESQUECEU SUA SENHA?</a>
+                                <br>
+                                <a href="cadastro.html">CRIAR CONTA</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <footer id="footer_login">Desenvolvido por Marcelo Bonora &reg; </footer> 
+        </div>           
+</body>
+</html>
+<script src="js/login.js"></script>

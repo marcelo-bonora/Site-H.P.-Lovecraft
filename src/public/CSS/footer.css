@@ -1,0 +1,56 @@
+/* ------------------------------------ QUINTA PARTE - INDEX --------------------------------------- */
+.footer_index{
+    width: 100%;
+    height: 200px;
+    background-color: #111111;
+    border-top: #333333 1px solid;
+}
+
+.footer_ferramentas{
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+.footer_ferramentas a{
+    text-decoration: none;
+    padding: 19px 50px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    transition: 1s;
+}
+
+.footer_ferramentas a:hover{
+    color: #727272;
+}
+
+.footer_redes_sociais{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+.svg-icon {
+    width: 35px;
+    height: 35px;
+    padding: 0px 30px;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #f5d824;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+
+.footer_msg{
+    color: #f5d824;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 13px;
+}

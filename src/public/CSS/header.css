@@ -1,0 +1,86 @@
+/*---------------------------------- PRIMEIRA PARTE - HEADER --------------------------------------- */
+.header {
+    background-color: #111111;
+    border-bottom: 2px solid #333333;
+    height: 80px;
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#logo{
+    margin: 10px 10px 10px 50px;
+    padding: 0px 10px 0px 0px;
+    float: left;
+    width: 80px;
+    height: 60px;
+    border-right: #333333 2px solid;
+ 
+}
+
+#header_h1{
+    float: left;
+    color: #025277;
+    font-size: 20px;
+    margin: 20px 0px;
+    padding: 0px 0px;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right,#333004 0,#f5d824 51%,#131502 100%);
+    border-image-slice: 1;
+}
+
+.current {
+    margin: 0px 0px;
+    color: #02773d;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right,#333004 0,#f5d824 51%,#131502 100%);
+    border-image-slice: 1;
+}
+
+#menu{
+    float: left;
+    margin: 40px 0px 0px 10%;
+    width: 65%;
+}
+
+#menu .current_a{
+    color: #2e67ae;
+}
+
+#menu a{ 
+    text-decoration: none;
+    margin: 20px 20px;
+    padding: 30px 10px 20px 10px;
+    color: #f9f9f9;
+}
+
+.a-scroll-menu {
+    color: #000;
+    transition: 0.2s;
+    display: block;
+    padding: 10px;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #2e67ae;
+}
+
+#menu #menu_button{
+    float: right;
+    padding: 15px 25px;
+    margin: -20px 0px 0px 0px;
+    color: #f9f9f9;
+    background-color: #2e67ae;
+    border: #333333 1px  solid;
+    border-radius: 5px;
+    position: relative;
+    font-weight: bold;  
+}
+
+#menu #menu_button:hover{
+    background-color: #3f8eee;
+    transition: 1s;
+}

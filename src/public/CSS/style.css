@@ -1,0 +1,1106 @@
+/* ------------------------------------- LINHAS GLOBAIS ------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+
+@font-face{
+    font-family: "Tangerine Bold";
+    src: url("../fontes/Tangerine/Tangerine-Bold.ttf");
+}
+@font-face{
+    font-family: "Major Mono Display";
+    src: url("../fontes/Major_Mono_Display/MajorMonoDisplay-Regular.ttf");
+}
+@font-face{
+    font-family: "PlayfairDisplaySC";
+    src: url("../fontes/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf");
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 1%;
+}
+
+::-webkit-scrollbar-track {
+    background: #101010;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f5d824;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ffe641;
+}
+
+/*--------------------------------- PRIMEIRA PARTE - HEADER --------------------------------------- */
+.header {
+    background-color: #111111;
+    border-bottom: 2px solid #333333;
+    height: 80px;
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#logo{
+    margin: 10px 10px 10px 50px;
+    padding: 0px 10px 0px 0px;
+    float: left;
+    width: 80px;
+    height: 60px;
+    border-right: #333333 2px solid;
+ 
+}
+
+#header_h1{
+    float: left;
+    color: #025277;
+    font-size: 20px;
+    margin: 20px 0px;
+    padding: 0px 0px;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right,#333004 0,#f5d824 51%,#131502 100%);
+    border-image-slice: 1;
+}
+
+.current {
+    margin: 0px 0px;
+    color: #02773d;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right,#333004 0,#f5d824 51%,#131502 100%);
+    border-image-slice: 1;
+}
+
+#menu{
+    float: left;
+    margin: 40px 0px 0px 10%;
+    width: 65%;
+}
+
+#menu .current_a{
+    color: #2e67ae;
+}
+
+#menu a{ 
+    text-decoration: none;
+    margin: 20px 20px;
+    padding: 30px 10px 20px 10px;
+    color: #f9f9f9;
+}
+
+.a-scroll-menu {
+    color: #000;
+    transition: 0.2s;
+    display: block;
+    padding: 10px;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #2e67ae;
+}
+
+#menu #menu_button{
+    float: right;
+    padding: 15px 25px;
+    margin: -20px 0px 0px 0px;
+    color: #f9f9f9;
+    background-color: #2e67ae;
+    border: #333333 1px  solid;
+    border-radius: 5px;
+    position: relative;
+    font-weight: bold;  
+}
+
+#menu #menu_button:hover{
+    background-color: #3f8eee;
+    transition: 1s;
+}
+
+/*--------------------------------------- SEGUNTA PARTE - INDEX ------------------------------------*/
+#home_background{
+    width: 100%;
+    height: 615px;
+    background-image: url("../img/home2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 7px solid transparent;
+    border-image: linear-gradient(to right,#333004 0,#f5d824 51%,#131502 100%);
+    border-image-slice: 1; 
+    background-color: #101010;
+    padding: 0px 0px 0px 0px;
+   
+}
+.home_box{
+    width: 100%;
+    height: 440px;
+    margin: 50px 0px 0px 0px;
+    background-color: #16161600;
+    border: #f9f9f9 1px solid;
+
+}
+
+.home_box_h1{
+    text-align: center;
+    font-size: 40px;
+    color: #f9f9f9;
+    margin: 160px 0px 0px 0px; 
+    font-family: "Major Mono Display";
+}
+
+.home_box_h1 #autor{
+    float: right;
+    padding: 0px 0px 0px 0px;
+    margin: 120px 30px 0px 0px;
+    font-size: 40px;
+    font-family: "Tangerine Bold";
+}
+
+
+/* --------------------------------- TERCEIRA PARTE - INDEX --------------------------------------- */
+.sobre{
+    width: 100%;
+    height: 600px;
+    background-color: #101010;
+    padding: 5% 0px 0px 0px;
+    
+}
+
+.sobre_msg{
+    width: 50%;
+    float: left;
+    /* background: #333333; */
+    color: #f9f9f9;
+    border: #f5d824 1px solid;
+    padding: 10px 10px;
+    transform:rotate(2deg);
+
+}
+.sobre_msg h1{
+    font-size: 70px;
+    text-align: center;
+    
+}
+.sobre_msg p{
+    font-size: 34.5px;
+    font-family: "Major Mono Display";
+    text-align: start;
+
+}
+
+.sobre_img img{
+    float: right;
+    width: 40%;
+    height: 580px;
+    
+}
+/* ----------------------------------- QUARTA PARTE - INDEX --------------------------------------- */
+.autor{
+    width: 100%;
+    height: 600px;
+    background-color: #101010;
+    padding: 5% 0px 6% 0px;
+}
+
+.autor_msg{
+    width: 50%;
+    float: right;
+    text-align: start;
+    color: #f9f9f9;
+    border-left: #f5d824 3px solid;
+    padding: 15px 0px;
+}
+
+.autor_msg h1{
+    font-size: 70px;
+}
+
+.autor_msg p{
+    font-size: 34px;
+    font-family: "Major Mono Display";
+}
+
+#autor_img{
+    float: left;
+    width: 45%;
+    padding: 100px 0px 0px 0px;
+}
+
+.imergir{
+    width: 100%;
+    height: 100px;
+    background-color: #101010;
+    text-align: center;
+}
+
+.autor_a{
+    text-decoration: none;
+    padding: 2% 4%;
+    font-size: 15px;
+    color: #f9f9f9;
+    background-color: #2e67ae;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.autor_a:hover{
+    background-color: #3f8eee;
+    transition: 0.4s;
+
+}
+
+
+/* ----------------------------------------- FOOTER ----------------------------------------------- */
+.footer_index{
+    width: 100%;
+    height: 200px;
+    background-color: #111111;
+    border-top: #333333 1px solid;
+}
+
+.footer_ferramentas{
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+.footer_ferramentas a{
+    text-decoration: none;
+    padding: 19px 50px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    transition: 1s;
+}
+
+.footer_ferramentas a:hover{
+    color: #727272;
+}
+
+.footer_redes_sociais{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+.svg-icon {
+    width: 35px;
+    height: 35px;
+    padding: 0px 30px;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #f5d824;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+
+.footer_msg{
+    color: #f5d824;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* --------------------------------- PRIMEIRA PARTE - PAGINA DE LOGIN ------------------------------*/
+.pagina_login .container{
+    width: 80%;
+}
+
+.body_login{
+    background-image: url("../img/wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+   padding-top: 0px;  
+}
+
+.back_home {
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    margin: 0px 0px 0px 10px;
+    padding: 10px 20px 10px 20px;
+    font-family: "Major Mono Display";
+    font-weight: bold;
+    color: #f9f9f9;
+    border: #f9f9f9 1px solid;
+}
+
+.back_home:hover{
+    color: #f5d824;
+}
+
+.box_login{
+    padding: 0px 0px 0px 0px;
+    margin: 55px 0px 80px 10%;
+    height: 450px;
+    width: 80%;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#img_box_login{
+    float: left;
+    background-size: cover;
+    height: 450px;
+    width: 40%;
+    padding: 0px 0px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
+    border-right: 10px solid transparent;
+    border-image: linear-gradient(to top,#333004 0,#f5d824 51%,#131502 100%);
+    border-image-slice: 1;
+
+}
+
+.box2_login{
+    float: right;
+    width: 58%;
+    height: 100%;
+    margin: 0% 0%;
+    padding: 0% 0% 0 0%;
+
+}
+
+#h2_login{
+    width: 50%;
+    height: auto;
+    margin: 10% 25% 0% 25%;
+    float: right;
+    color: #000000;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right,#021013 0,#268323 51%,#021013 100%);
+    border-image-slice: 1;
+   /* color: #cfcfcf; */
+    background-position: center center; 
+    /* border: 3px solid #ea03ff; */
+    text-align: center;
+    font-family: 'FF Mark W05', sans-serif;
+    font-size: 20px;
+}
+
+#redes_sociais{
+   float: right;
+    width: 50%;
+    height: auto;
+    margin: 5% 25% 0% 25%;
+}
+
+#fb{
+    float: left;
+    background-image: url("../img/facebook.png");
+    background-position: center center; 
+    background-repeat: no-repeat;
+    color: transparent;
+    background-size: 80%;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: transparent;
+    margin: 0px 15%;
+}
+
+#G{
+    float: left;
+    background-image: url("../img/google.png");
+    background-position: center center; 
+    background-repeat: no-repeat;
+    color: transparent;
+    background-size: 80%;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: transparent;
+    margin: 0px 15%;
+    
+}
+
+
+#input_login{
+    width: 50%;
+    height: auto;
+    margin: 0% 25% 0% 50%;
+    float: right;
+    /* border: 3px solid #03ff03; */
+}
+
+.icone_input{
+    float: left;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: 40px;
+    left: 10px;
+}
+
+#input{
+    float: right;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight:700;
+    background: #ededed;
+    color: #000000;
+    border: 1px solid #000000d3;
+    line-height:24px;
+    outline: none;
+    /* border: 2px transparent; */
+    padding: 4% 10% 4% 20%;
+    margin: 0% 0% 5% 0%;
+    display: block;
+    background-position: center center; 
+    text-align: start;
+    font-family: 'FF Mark W05', sans-serif;
+}
+
+#input_senha{
+    float: right;
+    width: 60%;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight:700;
+    background: #ededed;
+    color: #000000;
+    border: 1px solid #000000d3;
+    line-height:24px;
+    outline: none;
+    /* border: 2px transparent; */
+    padding: 4% 20% 4% 20%;
+    margin: 0% 0% 5% 0%;
+    display: block;
+    background-position: center center; 
+    text-align: start;
+    font-family: 'FF Mark W05', sans-serif;
+}
+
+
+#div_botão{
+    float: right;
+    /* border: 1px solid #0703ff; */
+    width: 50%;
+    height: auto;
+    margin: 0% 25%;
+    padding: 0% 0% 0% 0%;   
+}
+
+#botão_login{
+    background-image: url("../img/trava_fechado.png");;
+    background-color:#ededed;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 120%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    padding: 0 0 0 0;
+    display: block;
+    color: transparent;
+    border-radius: 27%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    border: transparent;
+    border: 2px solid #f5d824;
+    cursor: pointer;
+}
+
+#div_botão button:hover{
+    background-image: url("../img/trava_aberto.png");
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 120%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    padding: 0 0 0 0;
+    display: block;
+    color: transparent;
+    border-radius: 27%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    border: transparent;
+    border: 2px solid #f5d824;
+    /* background-color: transparent; */
+}
+
+
+#menu2 a{
+    font-size: 9px;
+    color: #cfcfcf;
+    text-decoration: none; 
+}
+
+#menu2{
+    position: relative;
+    clear: both;
+    height: auto;
+    width: 50%;
+    text-align: center;
+    padding-right: 3.5%;
+    margin: 0% 25% 0% 25%;
+}
+
+#menu2 a:hover{
+    background-image: url("../img/trava_aberto.png");
+    color: #268323;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right,#333004 0,#f5d824 51%,#131502 100%);
+    border-image-slice: 1;
+
+}
+
+#footer_login{
+    clear: both;
+    background-color: transparent;
+    height: 0px;
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+    height: 100%;
+}
+/*--------------------------- PRIMEIRA PARTE - PAGINA DE CADASTRO  -------------------------------- */
+
+.body_cadastro{
+    background-image: url("../img/cadastro4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.black{
+    background-color: #111111af;
+    width: 100%;
+    height: 100%;
+}
+
+.pag_cadastro{
+    width: 100%;
+    height: 100%;
+
+}
+
+.pag_cadastro h1{ 
+    text-align: center;
+    color: #f9f9f9;
+    font-family:serif;
+    padding: 4% 0;
+    font-size: 45px;
+}
+
+
+.box_cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    text-align: center;
+    padding: 0% 25% 0 20%;
+
+}
+
+
+  .label-float{
+    position: relative;
+    padding-top: 18px;
+    margin-bottom: 5%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #c4b998;
+  }
+  
+  .label-float input{
+    border: 0;
+    border-bottom: 1px solid #7e633b;
+    outline: none;
+    width: 130%;
+    font-size: 40px;
+    background-color: transparent;
+    color: #7e633b;
+  }
+  
+  .label-float input:focus{
+    border-bottom: 2px solid #7e633b;
+  }
+  
+  .label-float input::placeholder{
+    color:transparent;
+  }
+  
+  .label-float label{
+    pointer-events: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: 28px;
+    transition: all .3s ease-out;
+}
+  
+  .label-float input:focus + label,
+  .label-float input:not(:placeholder-shown) + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #c4b998;
+  }
+
+.button_cadastro{
+    font-weight: bold;
+    padding: 5% 10%;
+    margin: 3% 0 4.6% 30%;
+    color: #2e67ae;
+    background-color: #101010;
+    border: 2px solid #333333;
+}
+
+.button_cadastro:hover{
+    color: #f9f9f9;
+}
+/*---------------------------- SEGUNDA PARTE - PAGINA DE CADASTRO  -------------------------------- */
+
+.div_validacao{
+    text-align: start;
+    color: #be1e37;
+    font-size: 12px;
+}
+
+/*---------------------------------- SEGUNDA PARTE - UNIVERSO ------------------------------------*/
+
+#universo_background{
+    width: 100%;
+    height: 543px;
+    background-image: url("../img/descubra.jpg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    border-bottom: 7px solid transparent;
+    border-image: linear-gradient(to right,#333004 0,#f5d824 51%,#131502 100%);
+    border-image-slice: 1; 
+    background-color: #000000;
+    padding: 0px 0px 0px 0px;
+    margin: 0 0 0 0;
+    /* border-bottom: 1px solid #333333; */
+
+}
+
+.box_h1{
+    width: 45%;
+    height: 80%;
+    border: 1px solid #fff;
+    float: right;
+    margin: 5% 5% 0% 0;
+}
+
+.box_h1 h1{
+    color: #fff;
+    font-family: "Major Mono Display";
+    text-align: center;
+    padding: 80px 10px;
+}
+
+.box_h1 #autor{
+    color: #fff;
+    float: right;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 30px 0px 0px;
+    font-size: 40px;
+    font-family: "Tangerine Bold";
+}
+
+/*---------------------------------- TERCEIRA PARTE - UNIVERSO ------------------------------------*/
+
+.box_universo {
+    width: 100%;
+    height: 1000px;
+    background: #000;
+    box-sizing: inherit;
+}
+
+.container_universo{
+    width: 96%;
+    padding: 0 0 0 2%;
+}
+
+.box_universo h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: solid 1px #f5d824;
+    margin-bottom: 50px;
+    font-family: "PlayfairDisplaySC";
+    font-size: 30px;
+}
+
+.box_universo img{
+    width: 50px;
+    height: 50px;
+    padding: 50px 48% 0 48%;
+}
+
+.box{
+    float: left;
+    background-color: #101217;
+    border: 1px solid #32281f;
+    box-shadow: 0 0 16px 14px rgba(0,0,0,.4);
+    color: #fff;
+    cursor: pointer;
+    height: 338px;
+    width: 306px;
+    margin: 8px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    box-sizing: inherit;
+
+}
+.box h3{
+    text-align: center;
+    padding: 50% 0;
+    font-size: 25px;
+    font-family: "PlayfairDisplaySC";
+}
+
+.box p{
+    text-align: center;
+    padding-bottom: 0%;
+    font-size: 20px;
+    position: relative;
+    bottom: 45%;
+    color: #f5d824;
+    border-top: solid 1px #f5d824;
+    font-family: "PlayfairDisplaySC";
+}
+
+.box h3:hover{
+    background-color: rgba(0, 0, 0, 0.678);
+    transition: 1.3s;
+}
+
+
+.big_box{
+    float: right;
+    background-color: #101217;
+    border: 1px solid #32281f;
+    box-shadow: 0 0 16px 14px rgba(0,0,0,.4);
+    color: #fff;
+    cursor: pointer;
+    height: 639px;
+    width: 630px;
+    margin: 8px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    box-sizing: inherit;
+}
+
+.big_box h3{
+    text-align: center;
+    padding: 50% 0;
+    font-size: 50px;
+    font-family: "PlayfairDisplaySC";
+}
+
+.big_box p{
+    text-align: center;
+    padding-bottom: 0%;
+    font-size: 30px;
+    position: relative;
+    bottom: 49%;
+    color: #f5d824;
+    border-top: solid 1px #f5d824;
+    font-family: "PlayfairDisplaySC";
+}
+
+.big_box h3:hover{
+    background-color: rgba(0, 0, 0, 0.678);
+    transition: 1.3s;
+}
+
+#box1{
+    background-image: url("../img/necronomicon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#box2{
+    background-image: url("../img/hierarquia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#big_box1{
+    background-image: url("../img/sobre3.jfif");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#box3{
+    background-image: url("../img/Azathoth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#box4{
+    background-image: url("../img/Hastur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#box5{
+    background-image: url("../img/Nyarlathotep.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#box6{
+    background-image: url("../img/sobre3.jfif");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#big_box2{
+    background-image: url("../img/Hastur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#box7{
+    background-image: url("../img/Yog-Sothoth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#box8{
+    background-image: url("../img/Shub-Niggurath.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/*---------------------------------- QUARTA PARTE - UNIVERSO ------------------------------------*/
+.header_universo {
+    background-color: #111111;
+    border-bottom: 2px solid #333333;
+    height: 60px;
+    width: 80%;
+    padding: 10px 10%;
+    margin: 0px 0px 50px 0px;
+    font-size: 14px;
+}
+
+.header_universo h1{
+    color: #fff;
+    padding: 10px 60px;
+    float: left;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #333333;
+}
+
+.header_universo input{
+    padding: 9.25px 0px 9.25px 20px;
+    margin: 10px 0px 0px 40px;
+    width: 35%;
+    float: left;
+    border:  1px solid #333;
+    border-right: transparent;
+    background-color: #101010;
+    color: #fff;
+    font-weight: 700;  
+}
+
+.header_universo .busca{
+    background-image: url("../img/ritual.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60%;
+    width: 55px;
+    height: 37px;
+    background-color: transparent;
+    border:  1px solid #333;
+    border-left: transparent;
+    float: left;
+    margin-top: 10px;
+}
+
+.header_universo a{
+    float: right;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header_universo a:hover{
+    color: #f5d824;
+}
+/*---------------------------------- QUINTA PARTE - UNIVERSO ------------------------------------*/
+
+.container_bestiario{
+    width: 90%;
+    padding: 0 5%;
+}
+
+.box_bestiario{
+    float: left;
+    background-color: #101217;
+    border: 1px solid #32281f;
+    box-shadow: 0 0 16px 14px rgba(0,0,0,.4);
+    color: #fff;
+    /* cursor: pointer;
+    display: inline; */
+    height: 366px;
+    width: 284.500px;
+    margin: 8px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    box-sizing: inherit;
+}
+
+.box_bestiario h3{
+    text-align: center;
+    padding: 60% 0;
+    font-size: 25px;
+    font-family: "PlayfairDisplaySC";
+}
+
+.box_bestiario p{
+    text-align: center;
+    padding-bottom: 0%;
+    font-size: 20px;
+    position: relative;
+    bottom: 40%;
+    color: #f5d824;
+    border-top: solid 1px #f5d824;
+    font-family: "PlayfairDisplaySC";
+}
+
+.box_bestiario h3:hover{
+    background-color: rgba(0, 0, 0, 0.678);
+    transition: 1.3s;
+}
+/*------------------------------ PRIMEIRA PARTE - O DEUS IDIOTA ------------------------------------*/
+#mytho1{
+    background-image: url("../img/Azathoth.jpg");
+}
+
+#mytho2{
+    background-image: url("../img/Hastur.jpg");
+}
+
+.background_mytho{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 643px;
+    width: 100%;
+    border-bottom:  1px solid #333;
+}
+
+.titulo{
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.titulo:hover{
+    background-color: rgba(0, 0, 0, 0);
+    transition: 5s;
+    color: transparent;
+    
+}
+
+.titulo h1{
+    font-family: "PlayfairDisplaySC";
+    padding-top: 20%;
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 100%;
+    font-size: 60px;
+    color: #f0e6d2;
+    text-shadow: 0 0 20px #ffffff;
+}
+
+.titulo h3{
+    font-family: "PlayfairDisplaySC";
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 100%;
+    font-size: 18px;
+    margin-top: 19px;
+    color: #c8aa6e;
+    text-shadow: 0 0 20px rgba(1,10,19,.7);
+}
+
+.titulo p{
+    font-family: "PlayfairDisplaySC";
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-size: 100%;
+    color: #a09b8c;
+    margin-top: 120px;
+    position: relative;
+    text-shadow: 0 0 20px rgba(1,10,19,.7);
+}
+
+.titulo span{
+    color: #a09b8c;
+    font-size: 30px;
+}
+
+/*------------------------------ SEGUNDO PARTE - O DEUS IDIOTA ------------------------------------*/
+
+.container_texto{
+    width: 50%;
+    height: 100%;
+    padding: 0 25%;
+    color: #fff;
+    text-align: center;
+}
+
+.texto{
+    padding-bottom: 20%;
+    margin-top: 20%;
+}
+
+.texto h1{
+    font-family: "PlayfairDisplaySC";    
+}
+
+.texto h3{
+    margin-bottom: 20%;
+    color: #c8aa6e;
+    border-bottom: 1px solid #c8aa6e;
+}
+
+
+.texto p{
+    line-height: 1.8;
+    color: #f0e6d2;
+    font-size: 20px;
+    text-align: start;
+    font-family: "PlayfairDisplaySC";
+    padding: 10px;
+}
+
+
