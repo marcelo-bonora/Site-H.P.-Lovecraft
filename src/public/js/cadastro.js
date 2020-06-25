@@ -72,6 +72,11 @@ function cadastrar(){
             email.style.borderBottomColor = '#7e633b';
             senha.style.borderBottomColor = '#7e633b';
             confirmeSenha.style.borderBottomColor = '#7e633b';
+            button_cadastro.style.backgroundImage = 'url("img/looding.gif")';
+            button_cadastro.style.backgroundPosition = 'center center';
+            button_cadastro.style.backgroundSize = 'cover';
+            button_cadastro.style.color = 'transparent';
+
 
         fetch(url + '/user', {
             headers: {
