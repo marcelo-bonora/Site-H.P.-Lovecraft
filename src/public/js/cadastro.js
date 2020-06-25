@@ -100,6 +100,7 @@ function cadastrar(){
                         }, 1200);
                     }
                     if(json.message == "Esse usuário já existe!") {
+                        div_email.innerHTML = `Esse email já foi cadastrado`;
                     }
                 });
             }

@@ -2,6 +2,10 @@
  let url = 'http://localhost:3333';
 
  function logar(){
+
+    erro.style.display = "none";
+
+
      fetch(url + '/login', {
          headers: {
              'Accept': 'application/json',

@@ -32,7 +32,11 @@ routes.post('/user', (request, response) => {
 					from: 'marcelo.bonora@bandtec.com.br',
 					to: email,
 					subject: 'Parabens!!',
-					html: 'Cthulhu fica muito feliz por seu interresse nele'
+					html: `Agora você é membro da biblioteca Bestiary Lovecraftian<br><br>
+					SEUS DADOS:<br><br>
+					<b>Email</b>: ${email}<br><br>
+					<b>Nome de Usuário</b>: ${name}<br><br>
+					<b>Senha</b>: ${password}`
 				}
 		
 				transporter.sendMail(bodyEmailUser, (err) => {
@@ -41,8 +45,7 @@ routes.post('/user', (request, response) => {
 				})
 			});
 		}
-	})
-	
+	})	
 });
 
 routes.post('/news', (request, response) => {
